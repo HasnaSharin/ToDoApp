@@ -1,0 +1,69 @@
+.main{
+    width: 500px;
+    height: 700px;
+    background-color:whitesmoke;
+    display: flex;
+    flex-direction: column;
+
+}
+/* ------------------for input -------------------- */
+.inputdiv{
+    width: 100%;
+    height:200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+
+}
+.newInput{
+    border-radius: 5px;
+    padding: 5px;
+    width: 70%;
+    background-color: transparent;
+    border: 2px solid gray;
+}
+.btn{
+    padding: 5px;
+    width: 30%;
+    border-radius: 5px;
+    background: #000;
+    color: white;
+
+}
+/* -----------------for Todo-------------------- */
+.maintodo{
+    height: 100%;
+    display: flex;
+    padding-top: 20px;
+    flex-direction: column;
+    gap: 10px;
+
+}
+/* ------------------for Todos----------------- */
+.todoitem{
+    display: flex;
+    height: 60px;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.addbtn{
+    padding: 5px;
+    width: 50px;
+    border-radius: 5px;
+    background:black;
+    color: white;
+}
+.todocomplete{
+    flex: 1;
+    padding: 10px;
+    text-decoration: line-through;
+}
+.todoincomplete{
+    flex:1;
+    padding: 10px;
+
+}
